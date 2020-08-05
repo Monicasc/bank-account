@@ -6,7 +6,7 @@ class BankAccount:
     loan_balance = 0
     applied_for_loan = False
     withdrawal = []
-  
+    get_loan_statements = []
     
     def __init__(self, first_name, second_name,phone_number):
         self.first_name=first_name
@@ -95,6 +95,44 @@ class BankAccount:
             self.loan_balance -= amount
 
         return
+   def get_loan_statements(self):
+   for statement in self.repayments:
+   print("On",statement['date'],", you paid KES",statement['amount'])
+   class BankAccount(Account):
+   def __init__(self,first_name,second_name,phone_number,bank):
+   self.bank=bank
+   super().__init__(first_name,second_name,phone_number)
+
+ class BankAccount(Account);
+      def __init__{self,first_name,last_name,phone_number,bank}:
+          self.service_provider = service_provider
+          self.airtime []
+          super().__init__(first_name,last_name,phone_number)
+service_provider
+      def buy_airtime(self,amount);
+
+      #derived class
+ MobileMoneyAccount(Account):
+      def __init__(self,first_name,last_name,phone_number,service_provider):
+          super().__init__(self,first_name,second_name,phone_number)
+          def buy_airtime(self,amount):
+              try:
+                  amount=1
+                  except TypeError:
+                  print("please enter the amount in figures")
+                  return
+                  if amount=self.balance
+                  print("you do not have enough balance.Your balance is {}".format(self.balance))
+                  else:
+                      self.balance-=amount
+                      time= date.now()
+                      airtime={
+                         "time"time,
+                         "airtime"=amount 
+                      }
+                      self.airtime.append(airtime)
+                      print("youu have bought airtime worth {} on {}").format(amount,self.get_formatted_time)))ss
+
 
     
 acc1=BankAccount("Monica","Abich",254767895646)
